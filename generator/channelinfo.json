@@ -1,0 +1,18 @@
+[
+  {
+    "channel": "PositiveActiveEnergy",
+    "description": "Total Export Wh"
+  },
+  {
+    "channel": "NegativeActiveEnergy",
+    "description": "Total Import Wh"
+  },
+  {
+    "channel": "PositiveReactiveEnergy",
+    "description": "Total Export VArh"
+  },
+  {
+    "channel": "NegativeReactiveEnergy",
+    "description": "Total Import VArh"
+  }
+]
