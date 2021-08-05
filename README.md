@@ -22,3 +22,16 @@ This demo focuses the implementation of Azure Data Explorer in the Utilities sec
 In this demo, we will be working with fake electricity meter reading data. A Python script is included to generate datasets similar to those an electricity meter generates before it sends the data to the cloud.
 
 💡 Run the included [Data Generator](generator/DataGenerator.py) script to generate a fake dataset of meter readings.
+
+## Outcome: Meter Dashboard
+
+Dashboards in ADX allow us to place queries into tiles and visually make meaning of the data. A simple dashboard could feature:
+
+- Timerange and meter serial filter to narrow down our data
+- Markdown-enabled tile, here used to show the company logo
+- A multi-row grid with information about the currently selected meter
+- A table of the meter's reading value (according to filters)
+- The location of the electricity meter on a cluster map
+- Timeseries chart to visualise the table's meter reads over time
+
+![ADX Dashboard](images/adx-dashboard.png)
