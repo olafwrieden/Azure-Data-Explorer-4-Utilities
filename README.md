@@ -11,7 +11,7 @@ This demo focuses the implementation of Azure Data Explorer in the Utilities sec
 
 ## Our Approach
 
-1. Generate fake meter data.
+1. Generate sample meter data.
 2. Ingest (and transform) meter data into Azure Data Explorer.
 3. Configure ingestion policies to backdate datasets.
 4. Run adhoc queries and gain insights from the meter data.
@@ -25,7 +25,7 @@ In this demo, we will be working with fake electricity meter reading data. A Pyt
 
 See [understanding the dataset](Dataset.md) for more information.
 
-## Outcome: Meter Dashboard
+## Outcome: Meter Dashboard & Integrations
 
 Dashboards in ADX allow us to place queries into tiles and visually make meaning of the data. A simple dashboard could feature:
 
