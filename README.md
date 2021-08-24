@@ -23,6 +23,8 @@ In this demo, we will be working with fake electricity meter reading data. A Pyt
 
 💡 Run the included [Data Generator](generator/DataGenerator.py) script to generate a fake dataset of meter readings.
 
+See [understanding the dataset](Dataset.md) for more information.
+
 ## Outcome: Meter Dashboard
 
 Dashboards in ADX allow us to place queries into tiles and visually make meaning of the data. A simple dashboard could feature:
