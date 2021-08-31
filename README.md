@@ -7,7 +7,7 @@
 [Azure Data Explorer](https://azure.microsoft.com/en-au/services/data-explorer) (ADX) is Microsoft's lighting fast, fully managed data analytics service for real-time terabyte-scale data analysis. It empowers adhoc queries across complex datasets to quickly identify patterns, trends, and anomalies in your data.
 
 > 🚀 **Our Goal:**
-This demo focuses the implementation of Azure Data Explorer in the Utilities sector. We will explore how ADX can be used to ingest, query, and visualise sensor data to securely surface trends over time.
+> This demo focuses the implementation of Azure Data Explorer in the Utilities sector. We will explore how ADX can be used to ingest, query, and visualise sensor data to securely surface trends over time.
 
 ## Our Approach
 
@@ -24,6 +24,12 @@ In this demo, we will be working with fake electricity meter reading data. A Pyt
 💡 Run the included [Data Generator](generator/DataGenerator.py) script to generate a fake dataset of meter readings.
 
 See [understanding the dataset](Dataset.md) for more information.
+
+## Azure: Deploying the Resources
+
+We will be working with two resources, a storage account to hold our raw data (could be replaced with another storage or streaming service) and Azure Data Explorer Cluster.
+💡 Follow the [setting up Azure resources](ADX.md) guide to get started.
+![Azure Resources](/images/azure-resources.png)
 
 ## Outcome: Meter Dashboard & Integrations
 
